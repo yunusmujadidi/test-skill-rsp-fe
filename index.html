@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Lalui pandemi dengan belajar skill pemrograman - Refactory - Refactory</title>
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+
+<script>
+
+   
+// Mengatur waktu akhir perhitungan mundur
+var countDownDate = new Date("Dec 5, 2019 15:37:25").getTime();
+
+// Memperbarui hitungan mundur setiap 1 detik
+var x = setInterval(function() {
+
+  // Untuk mendapatkan tanggal dan waktu hari ini
+  var now = new Date().getTime();
+    
+  // Temukan jarak antara sekarang dan tanggal hitung mundur
+  var distance = countDownDate - now;
+    
+  // Perhitungan waktu untuk hari, jam, menit dan detik
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Keluarkan hasil dalam elemen dengan id = "demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // Jika hitungan mundur selesai, tulis beberapa teks 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+
+</script>
+
+<body>
+
+    <header>
+        <div class = "nav">
+            <div class="logo">
+                <a href="/">
+                    <img width="143" height="60" src="https://i0.wp.com/refactory.id/wp-content/uploads/2020/01/refactory-hd-125x52.png?ssl=1" 
+                    alt="" sizes="(max-width: 143px) 100vw, 143px"></a>
+            </div>
+    
+           
+                <ul class="menu">
+                    <li>
+                        <a href="https://refactory.id/courses">Courses</a>
+                    </li>
+                    <li>
+                        <a href="https://refactory.id/rsp">RSP</a>
+                    </li>
+                    <li>
+                        <a href="https://refactory.id/for-company">Untuk Perusahaan</a>
+                    </li>
+        
+                </ul>
+           
+        </div>
+
+
+            <div class="title">
+                <div class="judul">
+                    <h1 class="title">Kita semua terdampak pandemi.<br>
+                        Kami punya <span style="color: #E38800; font-weight: 600;">peluang</span>  untuk anda.</h1><br>
+                    
+                </div>
+
+                <div class="timer">
+
+                    <p id="demo"></p>
+
+                </div>
+            
+
+                <div class="button1">
+
+                   
+                    <a href="https://refactory.id/rsp-agenda" class="hero-btn btn btn-lg btn-block btn" target="_blank">Lihat Peluang</a>
+                </div>
+
+                     
+                   
+            </div>
+
+
+
+
+            
+<br><br><br><br><br><br><br>
+
+         
+
+
+
+
+
+    </header>
+    
+
+    <div class="hiring">
+        <div class="hire">
+            <h1 class="judulhire">Perusahaan Yang Sedang Membuka Kesempatan​ </h1>
+            <div class="hirekiri">
+
+
+                <div class="contentimg">
+                    <img src="https://i1.wp.com/refactory.id/wp-content/uploads/2021/01/Group-33.jpg?w=152&ssl=1"><br><br>
+                    <img src="jam.jpg"><span>Diperbarui 3 <br> jam lalu</span>
+                </div>
+
+                <div class="contenthire">
+                    <h1>Xapiens Teknologi Indonesia</h1>
+                    <p>Jakarta, Indonesia (possibly remote)</p>
+                    <img src="job.img"><p1 class="kiri1">
+                        Front End Development</p>
+                    <img src="sallary.jpg"><p1 class="kiri1">
+                        Rp. 5.000.000 - Rp. 8.000.000</p>
+
+                        <div class="tabelhire">                          
+                        <div class="kiriket">
+                    
+                            <div class="periode">
+                                Periode
+                            </div>
+                            <div class="Hiring Target">
+                                Hiring Target
+                            </div>
+                        </div>
+
+                        <div class="kananket">
+
+                            <div class="tgl">
+                                10 Februari - 12 Maret 2020
+                            </div>
+                            <div class="jml">
+                                20 person
+                            </div>
+                        </div>
+                        </div>   
+                </div>
+
+            </div>
+            
+      
+     </div>
+    
+
+    <div class="hiringinfo">
+        <div class="hiringjml">
+            <div>
+                <span id="student_total">1722</span>
+            </div>
+            <div style="color: #5D636B; font-size: 16px; font-weight: 400; ">
+                orang bergabung dalam platform
+            </div><br>
+        
+            <div class="button">
+                <a href="https://refactory.id/courses" class="hero-btn1 btn btn-lg btn-block " target="_blank">Daftar Untuk Bekerja</a>
+            </div>
+            <div class="button2">
+                <a href="https://refactory.id/courses" class="hero-btn2 btn btn-lg btn-block rounded-lg  " target="_blank">Pelajari Cara Kerjanya</a>
+            </div>
+            <div class="link"><br>
+                <a href="https://refactory.id/courses">Lihat Peluang Lainnya ></a>
+            </div>       
+
+        </div>
+    </div>
+
+   
+    
+
+    </div>
+    <div class="shapefill1">
+        <img src="fill1.jpg" alt="Italian Trulli">
+
+    </div>
+
+    <div class="review">
+
+        <div class="reviewjudul">
+            <p>TEMUI LULUSAN KAMI</p>
+        </div>
+
+            <div class="review2">
+                <p>Review</p>
+            </div>
+
+        <div class="review-read">
+            <p>Baca apa yang alumni ulas melalui<span><strong> Course Report</strong></span></p> <br>
+        </div>
+        <div class="reviewrating">
+
+            <div class="container review-container ">
+                <div class="row justify-content-center">
+                    <div class="col-2 md">
+                        <div class="course-report">
+                         <a href="https://www.coursereport.com/schools/refactory"><p><strong>COURSE<br> REPORT</strong></p></a>  
+            
+                        </div>
+                    </div>
+                    <div class="col-2 md">
+                        <div class="rating">
+                            <img src="star1.jpg" alt="5starrating">
+                        </div>
+                    </div>
+                    
+              
+            
+         
+
+           
+           
+        </div>
+        </div> 
+
+        <div class="reviewdetail">
+            <div class="card-deck">
+                <div class="card card1">
+                  <img class="card-img-top" src="https://i2.wp.com/refactory.id/wp-content/uploads/2020/01/agent-1.jpg?w=489&ssl=1" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">HARRY TRI WIBOWO</h5>
+                    <a href="https://www.coursereport.com/schools/refactory?shared_review=8677#reviews"><p class="subjudul">Software Engineer at AsiaCommerce</p></a>
+                    <img src="5star.jpg"><br><br>
+                    <p class="subjudul2">Dare to face real experience?</p>
+                    <p class="card-text">I am one of a graduate from batch 1, this Bootcamp really boosting my skill and knowledge 
+                        related to mobile programming and acknowledge me there is another important aspect which is
+                         soft skills. If You want to pursue in the mobile programming career, then this it is.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="https://i1.wp.com/refactory.id/wp-content/uploads/2020/01/agent-2.jpg?w=489&ssl=1" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">WANDA ICHSANUL ISRA</h5>
+                      <a href="https://www.coursereport.com/schools/refactory?shared_review=8677#reviews"><p class="subjudul">Software Engineer at Tokopedia</p></a>
+                      <img src="5star.jpg"><br><br>
+                      <p class="subjudul2">Right Place to Boost Your Programming Career</p>
+                      <p class="card-text">Refactory is one of the most wonderful experience that I’ve ever had in my entire life. 
+                          Friendly and professional mentors, curriculum that aligned with the needs of software industry,
+                           real working experience in comfortable place, those all totally worth time and money. Thanks Refactory family!</p>
+                     
+                    </div>
+                  </div>
+              
+              
+            </div>
+
+          
+
+
+           
+        </div>
+
+       
+        
+        <div class="reviewlain">
+            <div class="reviewbutton">
+                <a href="https://www.coursereport.com/schools/refactory" class="hero-btn3 btn btn-lg " target="_blank">Baca Review Lainnya</a>
+            </div>
+
+        </div>
+    
+    </div>
+
+    </div>
+
+
+    <div class="shapefill2">
+        <img src="fill2.jpg">
+    </div>
+
+    <div class="hiring2">
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="hire2">
+                <h1 class="judulhire2">Proyek Berjalan</h1>
+                <div class="hirekiri2">
+
+                    <div class="contentimg2">
+                        <img src="lion.jpg"><br><br>
+                        <img src="jam.jpg"><span style="margin-left: 10px;">Diperbarui 3<br> jam lalu</span>
+                    </div>
+    
+                    <div class="contenthire2">
+                        <h1>Lion Parcel</h1><br>
+                        <p>Jakarta, Indonesia</p>
+                        <img style="margin-right: 5%;" src="job2.jpg"><span>Backend, iOS, Android, Web Frontend</span><br><br>
+                            
+
+                        <div class="tabelhire2">
+                            <div class="kiriket2">
+                        
+                                <div class="projecttype2">
+                                    Project Type
+                                </div><br>
+                                <div class="periode2">
+                                    Periode
+                                </div><br>
+                                <div class="hiringtarget">
+                                    Hiring Target
+                                </div>
+                            </div>
+    
+                            <div class="kananket2">
+
+                                <div class="type">
+                                    Refactory Strategic Partnership
+                                </div><br>
+                                <div class="tgl2">
+                                    Oktober 2020 - April 2021
+                                </div><br>
+                                <div class="jml2">
+                                    20 person
+                                </div>
+                            </div>
+                            
+                        </div>
+                       
+                          
+                    </div>
+                
+                </div>
+
+
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="hiringinfo2">
+                <div class="link2">
+                    <a href="https://refactory.id/for-company">Lihat Project Lainnya ></a>
+                </div>
+
+            <div class="info-button">
+
+                <div class="buttoninfo">
+                    <p>Tertarik Bekerja Dari Rumah?</p><br>
+                    <a href="https://www.coursereport.com/schools/refactory" class="hero-btn4 btn btn-lg btn-block " target="_blank">Daftar RSP</a>
+        
+                </div>
+                <div class="buttoninfo2">
+                    <p>Ada Proyek Untuk Kami?</p><br>
+                    <a href="https://refactory.id/for-company" class="hero-btn5 btn btn-lg btn-block" target="_blank">Schedule A Call</a>
+        
+                </div>
+            </div>
+            </div>
+           
+          </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="shapefill3">
+        <img src="fill3.jpg">
+    </div>
+        
+    
+   
+
+    
+    <div class="container-fluid">
+        <div class="insight">
+            <div class="insightjudul">
+                INSIGHT TERBARU
+            </div><br>
+            <div class="insightsubjudul">
+                <strong>Knowledge Sharing</strong>
+            </div>
+            <div class="contentinsight">
+                GAMBAR
+            </div>
+    
+            <div class="linkinsight">
+                <a href="https://refactory.id/blog">LIHAT SEMUA</a>
+            </div>
+        
+    </div>
+    </div>
+   
+      
+
+       
+
+  
+
+    <div class="iklan">
+        <div class="juduliklan">
+            AS SEEN ON
+        </div>
+
+        <div class="iklan">
+            <div class="iklanatas">
+                <a href="https://www.cnnindonesia.com/teknologi/20171007074240-192-246767/menakar-peluang-karier-ahli-bahasa-pemrograman-di-indonesia/"><img src="https://i0.wp.com/refactory.id/wp-content/uploads/2020/01/press-cnn-indonesia-logo.png?fit=227%2C51&ssl=1" alt="CNN"></a>
+                <a href="http://m.metrotvnews.com/teknologi/news-teknologi/4bazAO0k-refactory-ingin-buka-kantor-baru-di-yogyakarta"><img src="https://i1.wp.com/refactory.id/wp-content/uploads/2020/01/metrotv-logo.png?resize=300%2C86&ssl=1" alt="METROTV"></a>
+                <a href="http://www.beritasatu.com/bisnis/451323-coder-dan-programmer-komputer-paling-dicari-di-dunia-kerja-modern.html"><img src="https://i1.wp.com/refactory.id/wp-content/uploads/2020/01/press-beritasatu.png?fit=236%2C36&ssl=1" alt="BERITASATU"></a>
+                <a href="https://kumparan.com/aditya-panji/melihat-peluang-di-tengah-kebutuhan-profesi-programmer-di-indonesia">https://i1.wp.com/refactory.id/wp-content/uploads/2020/01/press-kumparan.png?fit=205%2C51&ssl=1<img src="" alt="KUMPARAN"></a>
+                <a href="https://tech.idntimes.com/trend/indra/bukti-belajar-coding-itu-keren-refactory-resmi-wisuda-13-lulusan-siap-saing">https://i2.wp.com/refactory.id/wp-content/uploads/2020/01/press-idntimes-logo.png?fit=212%2C35&ssl=1<img src="" alt="IDNTIMES"></a>
+                <a href="https://www.codepolitan.com/refactory-berhasil-buktikan-mampu-mencetak-lulusan-programmer-keren-yang-siap-saing">https://i2.wp.com/refactory.id/wp-content/uploads/2020/01/codepolitan-logo.png?resize=300%2C62&ssl=1<img src="" alt="codepolitan"></a>
+                                           
+            </div>
+            <div class="iklanbawah">
+                <a href="http://m.viva.co.id/digital/955039-pasar-coding-di-indonesia-masih-terbuka-lebar"><img src="https://i1.wp.com/refactory.id/wp-content/uploads/2020/01/Viva-new-logo.png?resize=300%2C63&ssl=1" alt="viva"></a>
+                <a href="http://mediaindonesia.com/news/read/122152/5-peluang-pekerjaan-untuk-para-coder/2017-09-13"><img src="https://i0.wp.com/refactory.id/wp-content/uploads/2020/01/mediaindonesia-logo.png?fit=49%2C49&ssl=1" alt="mediaindonesia"></a>
+                <a href="http://m.tribunnews.com/techno/2017/09/25/programmer-semakin-menjanjikan-refactory-pilih-yogyakarta-jadi-markas-kedua"><img src="https://i0.wp.com/refactory.id/wp-content/uploads/2020/01/tribunnews-logo.png?resize=300%2C77&ssl=1" alt="tribunnews"></a>
+                <a href="https://www.jawapos.com/oto-dan-tekno/teknologi/26/09/2017/bawa-misi-ini-bos-refactory-id-pilih-jogja-jadi-markas-kedua/"><img src="https://i0.wp.com/refactory.id/wp-content/uploads/2020/01/jawapos.png?resize=300%2C46&ssl=1" alt="jawapos"></a>
+                <a href="http://m.inilah.com/news/detail/2403411/peran-coder-dan-programer-indonesia-di-masa-depan"><img src="https://i0.wp.com/refactory.id/wp-content/uploads/2020/01/inilahcom.png?resize=300%2C65&ssl=1" alt="inilahcom"></a>
+            
+            </div>
+
+
+            
+        </div>
+    </div>
+
+    <footer>
+        <div class="list1">
+            <div>Site Map</h2><nav class="menu-site-map-container" aria-label="Site Map"><ul id="menu-site-map" class="menu"><li id="menu-item-6335" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5751 current_page_item menu-item-6335"><a href="https://refactory.id/" aria-current="page" class="menu-link">Beranda</a></li>
+                <li><a href="https://refactory.id/courses/" class="menu-link">Courses</a></li>
+                <li><a href="https://refactory.id/rsp/" class="menu-link">RSP</a></li>
+                <li><a href="https://refactory.id/for-company/" class="menu-link">Untuk Perusahaan</a></li>
+                <li><a href="https://refactory.id/blog/" class="menu-link">Blog</a></li>
+                </ul></nav></div>
+        </div>
+        <div class="list2">
+            <div id="nav_menu-4" class="widget widget_nav_menu"><h2 class="widget-title">Company</h2><nav class="menu-company-container" aria-label="Company"><ul id="menu-company" class="menu"><li id="menu-item-5911" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5911"><a href="https://refactory.id/about/" class="menu-link">About Us</a></li>
+                <li id="menu-item-5951" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5951"><a href="https://refactory.id/okr-2021/" class="menu-link">OKR</a></li>
+                <li id="menu-item-5334" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5334"><a href="https://refactory.id/jobs/" class="menu-link">Career <span style="background: #F57D25; color: white; font-weight: bold; border-radius: 4px; padding: 2px 6px;">We’re Hiring</span></a></li>
+                <li id="menu-item-2519" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2519"><a href="https://refactory.id/faq/" class="menu-link">FAQ</a></li>
+                <li id="menu-item-335" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-335"><a href="https://refactory.id/presskit/" class="menu-link">Press Kit</a></li>
+                </ul></nav></div>
+        </div>
+        
+        <div class="list3">
+             <div id="nav_menu-2" class="widget widget_nav_menu"><h2 class="widget-title">Connect</h2><nav class="menu-social-media-container" aria-label="Connect"><ul id="menu-social-media" class="menu"><li id="menu-item-22" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22"><a href="https://www.instagram.com/refactory.id/" class="menu-link">Instagram</a></li>
+                <li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24"><a href="https://facebook.com/refactoryid" class="menu-link">Facebook</a></li>
+                <li id="menu-item-23" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23"><a href="https://www.youtube.com/c/refactory" class="menu-link">Youtube</a></li>
+                <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21"><a href="https://www.linkedin.com/school/13270470/" class="menu-link">LinkedIn</a></li>
+                </ul></nav></div></div>
+       
+    
+        <div class="list4">
+            <div><h2 class="judullist4">Company Address</h2>
+                <ul>
+                    <li><p>Jln. Palagan Tentara Pelajar
+                        Km. 9,8
+                        Ngaglik, Kab. Sleman
+                        DI Yogyakarta 55581</p>
+                </ul>
+    
+            </div>
+        </div>
+    
+        <div class="list5">
+            <div><h2 class="judullist5">Contact</h2>
+                <ul>
+                    <li><a href="mailto:marketing@refactory.id">marketing@refactory.id</a>
+                        <br>
+                        <a href="tel:+6281228203381">+62 8122 8203 381</a>
+                        <br>
+                        <br> Bella: <a href="https://wa.me/6281325067183">0813 2506 7183</a>
+                        <br>Septin: <a href="https://wa.me/6287820800206">0878 2080 0206</a>
+                </ul>
+    
+            </div>
+        </div>
+    
+        <hr>
+        <div class="site-footer">
+            © 2017 - 2021 <span class="ast-footer-site-title">Refactory</span> - All Rights Reserved - 
+            <a href="/tos" style="text-decoration: underline;">Terms of Services</a> / <a href="/privacy" style="text-decoration: underline;">Privacy Policy</a>
+            </div>
+    </footer>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

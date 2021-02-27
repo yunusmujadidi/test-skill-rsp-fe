@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+  
+ 
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+header {
+    background-image: url('background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-left: 12%;
+    padding-top: 2%;
+  
+   
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+ 
+    
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    font-style: normal;
+    padding-top: 2%;
+}
+
+
+.judul {
+    line-height: 45px;
+}
+
+.menu {
+    padding-top: 2.8%;
+    padding-right: 13.7%;
+   
+   
+}
+
+.menu a{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    padding-right: 10px;
+ 
+}
+
+.menu a:hover{
+    color: #ff8500;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu  li {
+    display: inline;
+
+
+}
+
+.button1 {
+    margin-top: 7%;
+    margin-right: 65%;
+
+}
+
+
+
+
+.hero-btn {
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid #E38800;
+
+  
+
+}
+
+.hero-btn:hover{
+    color: white;
+    background-color: #F19703;
+    text-decoration: none;
+}
+
+
+
+.hiring {
+    display: flex;
+    padding-left: 12%;
+    color: white;
+    background-color: #0B162B;
+}
+
+
+.judulhire {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #8d8d8d;
+}
+
+.hirekiri {
+    display: flex;
+    margin-top: 6%;
+}
+
+.contentimg {
+    font-weight: 500;
+    font-size: 16px;
+    color: #898989;
+    text-align: center;
+}
+
+.contenthire {
+    padding-left: 4%;
+}
+
+.contenthire > h1 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #f1f1f1;
+}
+
+.contenthire > p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #767d86;
+}
+
+.kiri1 {
+    color: #e1e1e1;
+    font-weight: 500;
+}
+
+.tabelhire {
+    display: flex;
+    
+}
+
+.kiriket {
+    font-weight: 500;
+    color: #5d636b;
+}
+
+.kananket {
+    padding-left: 25px;
+}
+
+.hiringinfo {
+    display: flex;
+    text-align: center;
+    padding-left: 5%;
+    margin-top: -3%;
+    
+  
+
+   
+}
+
+.hiringjml {
+    color: #E1E1E1;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.hero-btn1 {
+    color: white;
+    background-color:#E38800;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 3%;
+   
+   
+ 
+
+}
+
+.hero-btn1:hover {
+    text-decoration: none;
+    background-color: #F19703;
+    color: white;
+}
+
+.hero-btn2 {
+    margin-top: 5%;
+    color: white;
+    border: 2px solid #E38800;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 3%;
+    
+}
+
+.hero-btn2:hover {
+    background-color: #F19703;
+    color: white;
+
+}
+
+.link a {
+    text-decoration: underline;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.link :hover{
+    text-decoration: underline;
+
+}
+
+.review {
+    background: linear-gradient(#F4F5F6 50%, #FFFFFF 50%);
+     background-color: #F4F5F6;
+     text-align: center;
+     background-size: 50%;
+}
+
+.reviewjudul  {
+    padding-top: 2.5%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0B162B99;
+    letter-spacing: 2px;
+}
+
+.review2 {
+
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 2.5%;
+    font-weight: 700;
+    font-size: 36px;
+    color: #0B162B;
+
+}
+
+.review-read {
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0B162B;
+
+}
+
+.course-report p {
+  
+    font-weight: 900;
+    font-size: 32px;
+    color: #B4B6B9;
+    line-height: 80%;
+    letter-spacing: -2px;
+    
+}
+
+.course-report :hover{
+   
+    color: #4c71a8;
+    text-decoration: none;
+   
+}
+
+.review-container {
+    padding-bottom: 5%;
+}
+
+.card-deck {
+    margin-left: 17%;
+    margin-right: 17%;
+
+
+}
+
+.card-body {
+    text-align : left ;
+    color: #999999;
+}
+
+.card-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #111111;
+
+}
+
+
+
+
+
+.subjudul {
+    font-weight: 500;
+    font-size: 18px;
+    color: #999999;
+}
+
+.subjudul2 {
+    color: #3C4555;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+.card-text {
+    font-weight: 300;
+    font-size: 16px;
+    color: #0b162b;
+    line-height: 1.8;
+}
+
+.hero-btn3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 8px;
+    border: 2px solid #E38800;
+    color: #0b162b;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0.7% 2.5% ;
+   
+}
+
+.hero-btn3:hover{
+    color: white;
+    background-color: #F19703;
+    text-decoration: none;
+
+}
+
+
+
+.hiring2 {
+    display: flex;
+    background-color: #0B162B;
+    padding-left: 5.5% ;
+    color: white;
+}
+
+
+.judulhire2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #8d8d8d;
+   margin-left: 10%;
+   margin-bottom: 9%;
+}
+
+.hirekiri2 {
+    display: flex;
+}
+
+.contentimg2 {
+    color: #898989;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+}
+
+.tabelhire2 {
+    display: flex;
+  
+ 
+}
+
+.contenthire2 {
+    padding-left: 4.5%;
+
+}
+
+.contenthire2 h1{
+    font-weight: 700;
+    font-size: 20px;
+    color: #f1f1f1;
+}
+
+.contenthire2 p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #767d86;
+}
+
+.contenthire2 span{
+    font-weight: 500;
+    color: #e1e1e1;
+}
+
+.kiriket2 {
+    font-weight: 500;
+    color: #5d636b;
+
+}
+
+.kananket2 {
+  margin-left: 20px;
+  font-weight: 500;
+  color: #E1E1E1;
+}
+
+.link2 {
+    text-align:right;
+    padding-right: 25%;
+}
+
+.link2 a {
+    text-decoration: underline;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    
+
+}
+
+.info-button {
+    display: flex;
+    padding-top: 26%;
+   
+}
+
+.info-button p{
+
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    
+    
+}
+
+.hero-btn4 {
+    color: white;
+    background-color: #E38800;
+    font-weight: 600;
+}
+
+.hero-btn4:hover{
+    text-decoration: none;
+    background-color: #F19703;
+    color: white;
+}
+
+.hero-btn5 {
+    color: white;
+    border: 2px solid #E38800;
+    font-weight: 600;
+    
+}
+
+.hero-btn5:hover{
+    color: white;
+    background-color: #F19703;
+
+}
+
+.buttoninfo2 {
+
+    margin-left: 10%;
+}
+
+.insight {
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.insightjudul {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #718096;
+
+}
+
+.insightsubjudul {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #000000;
+    line-height: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
