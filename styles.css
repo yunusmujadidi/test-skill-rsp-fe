@@ -122,6 +122,7 @@ ul {
 .hiring {
     display: flex;
     padding-left: 12%;
+    padding-right: 12%;
     color: white;
     background-color: #0B162B;
 }
@@ -398,6 +399,7 @@ ul {
 
 .tabelhire2 {
     display: flex;
+    margin-bottom: 10%;
   
  
 }
@@ -515,6 +517,119 @@ ul {
     color: #000000;
     line-height: 80%;
 }
+
+.linkinsight{
+    padding-bottom: 4%;
+
+
+}
+.linkinsight a{
+    font-size: 15px;
+    color: #4299E1;
+    font-weight: 500;
+    
+
+}
+
+.linkinsight :hover{
+    color: #e48800;
+    
+}
+
+
+
+.iklan {
+    background-color: #EDF2F7;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.juduliklan {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 36px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+
+}
+
+.logo-iklan {
+    padding-bottom: 7%;
+}
+
+footer {
+    
+    background-color: #0C162A;
+    color: #eaeaea;
+    
+}
+
+.listatas {
+   padding-top: 3.7%;
+   display: flex;
+}
+
+.listatas p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #eaeaea;
+
+ }
+
+.menu-link {
+    font-size: 14px;
+    color: #eaeaea;
+
+}
+
+.menu-link:hover{
+    text-decoration: none;
+    color: #e48800;
+}
+
+
+  
+    
+}
+.sosmed-logo a{
+    color: #eaeaea;  
+
+}
+
+.sosmed-logo a:hover{
+    color: #307775;
+}
+
+.sosmed-logo li{
+   display: inline-block;
+}
+
+.site-footer {
+    padding-left: 12%;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    padding-bottom: 3%;
+
+}
+
+.site-footer a{
+    color: #eaeaea;
+
+}
+
+.site-footer a:hover{
+    color: #e48800;
+}
+
+hr {
+    border: 1px solid #333333;
+}
+
+
 
 
 
