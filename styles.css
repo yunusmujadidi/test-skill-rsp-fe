@@ -25,7 +25,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-
+img {
+    max-width: 100%;
+    height: auto;
+  }
 
 
 
@@ -188,10 +191,7 @@ ul {
     text-align: center;
     padding-left: 5%;
     margin-top: -3%;
-    
-  
 
-   
 }
 
 .hiringjml {
@@ -591,9 +591,6 @@ footer {
 }
 
 
-  
-    
-}
 .sosmed-logo a{
     color: #eaeaea;  
 
@@ -609,6 +606,7 @@ footer {
 
 .site-footer {
     padding-left: 12%;
+    padding-right: 12%;
     font-weight: 400;
     font-size: 14px;
     color: #ffffff;
@@ -628,6 +626,9 @@ footer {
 hr {
     border: 1px solid #333333;
 }
+
+
+
 
 
 
