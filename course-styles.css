@@ -32,6 +32,7 @@
     src: local('Segoe UI Bold Italic'), url('Segoe UI Bold Italic.woff') format('woff');
     }
 
+    
 *{
     
     margin: 0px;
@@ -42,6 +43,27 @@
  
 }
 
+html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
 a {
     text-decoration: none;
     color: #FFFFFF;
