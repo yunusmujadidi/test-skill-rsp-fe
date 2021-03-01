@@ -327,6 +327,40 @@ footer {
 hr {
     border: 1px solid #333333;
 }
+.box-form{
+    background :url(box-suite.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    padding-right: 25%;
+    padding-left: 25%;
+    padding-top: 15%;
+    padding-bottom: 20%;
+    
+}
+.box-form h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #0b162b;
+    padding-bottom: 7%;
+}
+
+.box-form p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #484848;
+    line-height: 26px;
+    padding-bottom: 7%;
+   
+}
+
+
+
+
 
 
 
