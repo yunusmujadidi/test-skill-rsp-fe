@@ -1,0 +1,86 @@
+.navbar {
+
+}
+
+body {
+    background-color: #F5F5F5;
+    margin :0px;
+    padding: 0px;
+}
+.navbar-brand {
+    padding-left: 10%;
+    padding-top: 1%;
+}
+
+
+.menu {
+    padding-right: 15%;
+   
+   
+}
+.menu a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+ 
+}
+.menu a:hover{
+    color: #ff8500;
+}
+
+.body-blog {
+    justify-content: center;
+    background-color: #ffffff;
+    padding-left: 4.5%;
+    padding-right: 4.5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: -5%;
+  
+    font-family: 'Segoe UI', sans-serif;
+    color: #3a3a3a;
+}
+
+.image-blog {
+    padding-bottom: 2%;
+}
+
+.judul-blog {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    
+
+}
+
+.heading-blog {
+    padding-bottom: 1%;
+}
+
+
+.blog {
+  padding-bottom: 5%;
+}
+
+.subjudul {
+
+}
+
+.blog p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    padding-bottom: 5%;
+}
+
+.content-blog {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
