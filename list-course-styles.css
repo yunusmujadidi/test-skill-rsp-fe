@@ -1,0 +1,47 @@
+.navbar {
+    background-image: linear-gradient(to right,#2852A2,#4DB4AE);
+  
+}
+
+.navbar-brand {
+    padding-left: 10%;
+}
+
+.navbar-nav {
+    padding-right: 10%;
+    
+
+}
+
+.nav-item  {
+    padding-right: 15px;
+}
+
+
+.navbar-nav a{
+    color: white;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 30px;
+
+
+}
+
+.navbar-nav a:hover{
+    color: #347B89;
+}
+
+
+.navitem a{
+    color: black;
+}
+
+.content {
+    margin-top: 9%;
+}
+
+
+.judula {
+    color: #E07C05;
+}
