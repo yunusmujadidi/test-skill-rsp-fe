@@ -1,0 +1,242 @@
+
+body {
+    background-color: #F5F5F5;
+}
+
+header {
+    background-color: #123547;
+    padding-bottom: 1%;
+}
+
+.navbar-brand {
+    padding-left: 7.2%;
+}
+
+.navbar-nav {
+    padding-right: 10%;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+   
+}
+
+
+.navbar-nav a{
+    color: white;
+}
+
+.navbar-nav a:hover{
+    color: #e48800
+}
+
+.navbar-nav li{
+    padding-right: 10px;
+
+}
+
+.shape-fill {
+    background-color: #245A78;
+    padding-top: 2%;
+}
+
+.body-artikel {
+    margin-top: 8% ;
+}
+
+.category {
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #e89a01;
+}
+
+.judul-artikel {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31px;
+    color: #0b162b;
+}
+
+.info-artikel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #666666;
+}
+
+.content-artikel {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #666666;
+}
+
+.content-kanan {
+    margin-top: -7%;
+    padding-left: 10%;
+}
+
+.media-sosial {
+    
+}
+
+
+.media-sosial p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #e48800;
+}
+
+.media-sosial .follow {
+    font-size: 28px;
+    line-height: 28px;
+    color: #000000;
+
+}
+
+.logo a{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #434343;
+  
+}
+
+.logo a:hover{
+    color: #4E8AA1;
+}
+
+.logo i {
+    color: #47A89C;
+}
+
+.artikel-populer {
+    color: #F9F9F9;
+    justify-content: center;
+    margin-top: 50%;
+    margin-bottom: 10%;
+    padding-top: 2%;
+    background-color: ##F9F9F9;
+}
+
+.card-body a{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 19px;
+    color: #ff9800;
+
+}
+.card-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    color: #373c44;
+}
+
+.btn {
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid #E38800;
+    color: #E38800;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn a{
+    color: #E38800;
+}
+
+
+
+.button a:hover{
+    color: white;
+    background-color: #E38800;
+    
+}
+ .artikel-populer .btn a:hover{
+     color: white;
+     background-color: #e48800;
+ }
+
+ .judul-slide{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    color: #e48800;
+    font-weight: 500;
+    text-align: center;
+ }
+
+ .judul-artikel-populer{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 14px;
+    color: #e48800;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 5%;
+
+ }
+
+ .card-text {
+     font-size: 12px;
+     font-weight: 400;
+     color: #3a3a3a;
+     line-height: 22px;
+ }
+   
+
+.card-artikel {
+    display: flex;
+}
+
+
+.artikel-terkait {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.judul-artikel-terkait {
+
+   
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    color: #e48800;
+    font-weight: 500;
+    
+}
+
+.judul-artikel {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    color: #0b162b;
+    font-weight: 700;
+}
+
+.judul-tag {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    color: #e48800;
+    font-weight: 500;
+}
+
+.tag-content {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #808080;
+    font-weight: 600;
+}
+
+.card1 {
+    margin-right: 3%;
+}
+
