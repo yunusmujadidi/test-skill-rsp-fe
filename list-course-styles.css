@@ -46,3 +46,7 @@
     color: #E07C05;
 }
 
+.input-group {
+   display: flex;
+   justify-content: right;
+}
